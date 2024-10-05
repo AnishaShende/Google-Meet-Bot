@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recall.ai Demo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to the Recall.ai Demo</h1>
+      <p>
+        This is a web application that connects to the
+        <a href="https://recall.ai" target="_blank">Recall.ai API</a> and lets
+        you transcribe meetings in seconds!
+      </p>
+      <form id="connect-form">
+        <input
+          type="text"
+          id="bot-name"
+          placeholder="Meeting bot name"
+          required
+        />
+        <input
+          type="url"
+          id="meeting-link"
+          placeholder="Meeting link"
+          required
+        />
+        <button type="submit">CONNECT</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
